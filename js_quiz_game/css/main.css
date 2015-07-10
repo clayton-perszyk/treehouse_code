@@ -1,0 +1,115 @@
+	h1 {
+		color: #ccc;
+		border-bottom: solid 1px orange;
+		padding-bottom: 15px;
+		text-align: center;
+		margin-top: -50px;
+	}
+
+	body {
+		background: #888;
+		background-image: none; 
+	}
+
+	p,
+	h2 {
+		color: #aaa;
+		letter-spacing: 1.5px;
+		font-size: 25px; 
+	}
+
+	h3 {
+
+		color: #8f8;
+		font-style: italic;
+		letter-spacing: 5px;
+		text-align: inherit;
+	}
+
+	ol {
+		color: orange;
+		list-style-type: none;
+	}
+
+	.not-ace {
+		color: red;
+	}
+
+
+	.correct,
+	.green {
+		color: #8f8;
+	}
+
+
+	.red,
+	.green {
+		font-size: 30`px;
+		font-style: oblique;
+	}
+
+	.total-correct {
+		color: #eee;
+	}
+
+
+	.incorrect,
+	.red {
+		color: red;
+	}
+
+	#main {
+		background-color: #555;
+		padding: 75px;
+		width: 800px;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		text-align: center;
+		border:	2px solid black;
+		box-shadow: -5px 5px 50px 15px #333;
+	}
+
+	.winner,
+	.loser {
+		border: 2px solid orange;
+		background-repeat: no-repeat;
+		height: 400px;
+		width: auto;
+		background-size: cover;
+		box-shadow: -5px 5px 50px 25px #333;
+		border-radius: 5px;
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+
+	.winner {
+		background-image: url("http://media.giphy.com/media/FMapondVtL2Fi/giphy.gif");
+		height: 650px;
+	}
+
+	.loser {
+		background-image: url("http://reactiongifs.me/wp-content/uploads/2013/08/breaking-bad-i-won.gif");
+	}
+
+	#quiz-response-banner {
+		display: none;
+		background: #aaa;
+		padding: 5%;
+		color: #333;
+		border-radius: 10px;
+		box-shadow: -5px 5px 5px #222;
+	}
+
+	/*#banner {
+		display: none;
+		background: #999;
+		padding: 5%;
+		color: #333;
+		border-radius: 10px;
+		box-shadow: -5px 5px 5px #222;
+	}*/
+
+	ol li {
+		font-size: 20px;
+	}

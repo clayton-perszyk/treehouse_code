@@ -1,0 +1,43 @@
+body {
+	background: #555;
+}
+
+li {
+	list-style: none;
+	font-size: 24px;
+	padding-bottom: 2px
+}
+
+.info {
+	color: #ccc;
+	margin-bottom: -15px;
+}
+
+.value {
+	color: tomato;
+}
+
+#find,
+#show,
+#hide {
+	background: #789;
+	padding: 10px;
+	font-size: 24px;
+}
+
+#hide,
+#addPoints {
+	visibility: hidden;
+}
+
+#find,
+#show {
+	visibility: visible;
+	margin: 5px;
+}
+
+#addPoints {
+	background: #9f9;
+	padding: 10px;
+	font-size: 24px;
+}
